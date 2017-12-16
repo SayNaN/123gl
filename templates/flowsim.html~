@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+{% block title %}NextCFD{% endblock %}
+{% block content %}
+<div id="contents">
+  <div class="background">
+    <h3>We Have Free Templates for Everyone</h3>
+    <p>
+      Our website templates are created with inspiration, checked for quality and originality and meticulously sliced and coded. What&acute;s more, they&acute;re
+      absolutely free! You can do a lot with them. You can modify them. You can use them to design websites for clients, so long as you agree with
+      the <a href="http://www.freewebsitetemplates.com/about/termsofuse/">Terms of Use</a>. You can even remove all our links if you want to.
+    </p>
+    
+    <h3>We Have More Templates for You</h3>
+    <p>
+      Looking for more templates? Just browse through all our <a href="http://www.freewebsitetemplates.com/">Free Website	Templates</a> and find what you&acute;re looking for. But if you don&acute;t find any
+      website template you can use, you can try our <a href="http://www.freewebsitetemplates.com/freewebdesign/">Free Web Design</a> service and tell us all about it. Maybe you&acute;re looking for something different,
+      something special. And we love the challenge of doing something	different and something special.
+    </p>
+    
+    <h3>Be Part of Our Community</h3>
+    <p>If you&acute;re experiencing issues and concerns about this website template, join the discussion <a href="http://www.freewebsitetemplates.com/forum/">on our forum</a> and meet other people in the community who share the same interests with you.</p>
+    
+    <p>
+      <b>Template details</b>
+      Version 5<br/><br/>
+      Website Template details, discussion and updates for this <a href="http://www.freewebsitetemplates.com/forum/f18/business-solutions-website-template-18773">Business Solutions Template</a>.<br/><br/>
+      Website Template design by <a href="http://www.freewebsitetemplates.com/">Free Website Templates</a>.<br/><br/>
+      Please feel free to remove some or all the text and links of this page and replace it with your own About content.<br/><br/>
+    </p>
+  </div>
+</div> <!-- /#contents -->
+<div id="footer">
+  <ul class="contacts">
+    <h3>联系我们</h3>
+    <li><span>Email</span>
+      <p>: biz@nextcfd.cn</p></li>
+    <li><span>地址</span>
+      <p>: 厦门市思明区厦门大学航空航天学院 361005</p></li>
+    <li><span>电话</span>
+      <p>: 86-0592-2186849</p></li>
+  </ul>
+  <ul id="connect">
+    <h3>关注我们</h3>
+    <li><a href="blog.html">新浪微博</a></li>
+    <li><a href="http://facebook.com/freewebsitetemplates" target="_blank">微信</a></li>
+    <li><a href="http://twitter.com/fwtemplates" target="_blank">人人网</a></li>
+  </ul>
+  <div id="newsletter">
+    <p><b>获取最新信息</b></p>
+    <p>&nbsp;</p>
+    <p>登记邮箱您将定期获得NextCFD最新的服务动态和资讯更新.</p>
+    <form action="" method="">
+      <input type="text" value="Name" class="txtfield" onblur="javascript:if(this.value==''){this.value=this.defaultValue;}" onfocus="javascript:if(this.value==this.defaultValue){this.value='';}" />
+      <input type="text" value="Enter Email Address" class="txtfield" onblur="javascript:if(this.value==''){this.value=this.defaultValue;}" onfocus="javascript:if(this.value==this.defaultValue){this.value='';}" />
+      <input type="submit" value="" class="button" />
+    </form>
+  </div>
+  <span class="footnote">版权所有 流体仿真共享平台 Copyright &copy; NextCFD 2017. All rights reserved</span>
+</div> <!-- /#footer -->
+{% endblock %}

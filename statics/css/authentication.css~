@@ -1,0 +1,218 @@
+.web_login .lock_tips .lock_tips_row{
+    position:relative;
+    top:-6px;
+    left:25px;
+    width:12px;
+    height:6px;
+    background:#f9f5c7;
+}
+
+.err-msg {
+    display: none
+}
+
+.login-box {
+    position: relative;
+    max-width: 355px;
+    width: 100%;
+    border: 1px solid #666;
+    border-radius: 4px;
+    box-shadow: 0 0 .8em #222;
+    padding: 19px;
+    background-color: #fdfdfd;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    box-sizing: border-box;
+    top: 50%;
+}
+
+.web_login {
+    width: 306px;
+    padding-bottom: 0;
+    min-height: 250px;
+}
+
+.web_login .low_login {
+    left: 0px;
+    top: -9px;
+}
+
+.web_login .loginform {
+    width: 284px;
+}
+
+.web_login .submit {
+    margin-top: 23px;
+}
+
+.web_login .input_tips, .web_login .input_tips_focus {
+    top: 12px;
+    * top: 13px;
+    _top: 14px;
+}
+
+.web_login .verifyArea{
+    display:none;
+}
+
+.web_login .verifyinputArea {
+    height: 53px;
+    vertical-align: middle;
+    float: left;
+}
+
+/*.web_login .inputOuter {
+    background: none;
+    border: 1px solid #96a5b4;
+    height: 38px;
+    width: 282px;
+    border-radius: 2px;
+}
+
+.web_login .inputOuter_focus {
+    background: none;
+    border: 1px solid #4892e7;
+    height: 38px;
+    width: 282px;
+    border-radius: 2px;
+}*/
+
+.web_login .verifyinputArea .inputOuter, .web_login .verifyinputArea .inputOuter_focus {
+    width: 147px;
+    height: 51px;
+}
+
+.web_login .inputstyle {
+    top: 0px;
+    padding: 10px 40px 10px 10px;
+    left: 0px;
+    border-radius: 3px;
+    width: 232px;
+}
+
+.web_login .verifyinputArea .inputstyle {
+    width: 97px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.web_login .verifyinputArea .input_tips, .web_login .verifyinputArea .input_tips_focus {
+    top: 18px;
+}
+
+.web_login .inputstyle.password {
+    width: 260px;
+    padding: 10px 12px 10px 10px;
+}
+
+.web_login .uin_del {
+    right: 10px;
+    height: 22px;
+    width: 22px;
+    background: url(/images/ptlogin_delete1e9c5d.png) 0 0 no-repeat;
+    _background: url(/images/ptlogin_delete_ie61e9c5d.png) 0 0 no-repeat;
+}
+
+.web_login .uin_del:hover {
+    background-position: 0 -22px;
+}
+
+.web_login .login_button .btn {
+    height: 40px;
+    line-height: 39px;
+    width: 50%;
+}
+
+.web_login .login_button .btn:active {
+    outline: none;
+}
+
+.web_login .login_button {
+    right: 0px;
+    top: 25px;
+    background-color: #5a98de;
+    outline: none;
+}
+
+.web_login .login_button:hover {
+    background-color: #6aa2e0;
+}
+
+.web_login .login_button:active {
+    background-color: #5a98de;
+}
+
+.web_login .uinArea {
+    height: 50px;
+}
+
+.web_login .pwdArea {
+    height: 50px;
+}
+
+.web_login .verifyArea {
+    height: 70px;
+}
+
+.web_login .verifyimgArea .verifyimg_tips {
+    top: 21px;
+    color: #225592;
+    top: 59px;
+    left: 44px;
+}
+
+.web_login .verifyimgArea {
+    vertical-align: middle;
+    width: 130px;
+    float: right;
+}
+
+.web_login .verifyimgArea .verifyimg {
+    width: 130px;
+    height: 53px;
+}
+
+.web_login .lock_tips{
+    position:absolute;
+    top:30px;
+    left:10px;
+    height:16px;
+    padding:5px;
+    width:120px;
+    text-align:center;
+    display:none;
+    border:1px solid #dad699;
+    background:#f9f5c7;
+    border-radius:2px
+}
+
+.input-group{
+    display: table;
+    position: relative;
+}
+
+.input-group .password{
+    position: table-cell;
+    float: left;
+    width: 100%;
+    margin-bottom: 0
+    display: table-cell;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+}
+
+.input-group .forgotPWD {
+    display: table-cell;
+    width: 1%;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 0px 12px;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}

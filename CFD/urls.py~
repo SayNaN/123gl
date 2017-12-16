@@ -1,0 +1,17 @@
+from django.conf.urls import url
+from . import views
+
+urlpatterns = [
+    url(r'^auth$', views._auth),
+    url(r'^regs$', views._regs),
+]
+
+
+
+
+
+
+
+
+
+

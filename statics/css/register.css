@@ -1,0 +1,209 @@
+.web_regi .lock_tips .lock_tips_row{
+    position:relative;
+    top:-6px;
+    left:25px;
+    width:12px;
+    height:6px;
+    background:#f9f5c7;
+}
+
+.regi-box {
+    position: relative;
+    max-width: 355px;
+    width: 100%;
+    border: 1px solid #666;
+    border-radius: 4px;
+    box-shadow: 0 0 .8em #222;
+    padding: 19px;
+    background-color: #fdfdfd;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    box-sizing: border-box;
+    top: 50%;
+}
+
+.web_regi {
+    width: 306px;
+    padding-bottom: 0;
+    min-height: 250px;
+}
+
+.web_regi .regiform {
+    width: 284px;
+}
+
+.web_regi .uin_del {
+    right: 10px;
+    height: 22px;
+    width: 22px;
+    /*background: url(/images/ptlogin_delete1e9c5d.png) 0 0 no-repeat;*/
+}
+
+.web_regi .uin_del:hover {
+    background-position: 0 -22px;
+}
+
+.web_regi .regi-buttons .btn {
+    height: 40px;
+    line-height: 39px;
+    width: 50%;
+}
+
+.fa-check{
+    color: #25AB5D;
+    font-size: 12px;
+}
+
+.fa-close{
+    color: red;
+    font-size: 12px;
+}
+
+.fa-info-circle{
+    color: #8b8b8b;
+    font-size: 12px;
+}
+
+.msg{
+    display: table-cell;
+}
+
+.web_regi .regi-button .btn:active {
+    outline: none;
+}
+
+.web_regi .regi-button {
+    right: 0px;
+    top: 25px;
+    background-color: #5a98de;
+    outline: none;
+}
+
+.web_regi .regi-button:hover {
+    background-color: #6aa2e0;
+}
+
+.web_regi .regi-button:active {
+    background-color: #5a98de;
+}
+
+.web_regi .uinArea {
+    height: 50px;
+    display: table;
+}
+
+.web_regi .genderArea {
+    height: 50px;
+    display: table;
+    text-align:center;
+}
+
+.web_regi .emailArea {
+    height: 50px;
+    display: table;
+}
+
+.web_regi .phoneArea {
+    height: 50px;
+    display: table;
+}
+
+.web_regi .workArea {
+    height: 50px;
+    display: table;
+}
+
+.web_regi .pwdArea {
+    height: 50px;
+    display: table;
+}
+
+.web_regi .confirmpwdArea {
+    height: 50px;
+    display: table;
+}
+
+.web_regi .inputstyle {
+    top: 0px;
+    padding: 10px 40px 10px 10px;
+    left: 0px;
+    border-radius: 3px;
+    width: 232px;
+}
+
+.web_regi .radio-btn{
+    display: table-cell;
+    transform:translateY(50%);
+}
+
+.web_regi .radio-label{
+    display: table-cell;
+    transform:translateY(15%);
+}
+
+.web_regi .terms-and-conditions {
+    height: 30px;
+    font-size: 8px;
+}
+
+.web_regi .login-href{
+    height: 20px;
+}
+
+.web_regi .lock_tips{
+    position:absolute;
+    top:30px;
+    left:10px;
+    height:16px;
+    padding:5px;
+    width:120px;
+    text-align:center;
+    display:none;
+    border:1px solid #dad699;
+    background:#f9f5c7;
+    border-radius:2px
+}
+
+.web_regi .reginprogress{
+    display: none;
+}
+
+.web_regi .regsuccess{
+    display: none;
+}
+
+.web_regi .regerror{
+    display: none;
+}
+
+.input-group{
+    display: table;
+    position: relative;
+}
+
+.input-group .password{
+    position: table-cell;
+    float: left;
+    width: 100%;
+    margin-bottom: 0
+    display: table-cell;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+}
+
+.input-group .forgotPWD {
+    display: table-cell;
+    width: 1%;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 0px 12px;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+

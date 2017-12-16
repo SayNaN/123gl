@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+{% block title %}NextCFD注册{% endblock %}
+{% block additionJS %}
+<script src="js/register.js" type="text/javascript"></script>
+<link rel="stylesheet" href="css/register.css" type="text/css" charset="utf-8" />
+{% endblock %}
+{% block content %}
+<div class="regi-box" id="regi">
+  <div class="web_regi" id="web_regi">
+    <form class="regiform" id="regiform" autocomplete="off" name="regiform" style="margin:0px">
+      <div class="uinArea" id="uinArea">
+	<input type="text" class="inputstyle" name="uin" id="uin"  placeholder="用户名">
+	<span class="msg" id="uin-msg"></span>
+      </div>
+      <div class="genderArea" id="genderArea">
+	<input type="radio" class="radio-btn" name="gender" id="male" checked="true" tabindex="1" value="d">
+	<label class="radio-label" for="male">男士</label>
+	<input type="radio" class="radio-btn" name="gender" id="female" tabindex="2">
+	<label class="radio-label" for="female">女士</label>
+      </div>
+      <div class="emailArea" id="emailArea">
+	<input type="text" class="inputstyle" name="email" id="email"  placeholder="Email"/>
+	<span class="msg" id="email-msg"></span>
+      </div>
+
+      <div class="phoneArea" id="phoneArea">
+	<input type="text" class="inputstyle" name="phone" id="phone"  placeholder="联系电话"/>
+	<span class="msg" id="phone-msg"></span>
+      </div>
+
+      <div class="workArea" id="workArea">
+	<input type="text" class="inputstyle" name="work" id="work"  placeholder="工作单位"/>
+	<span class="msg" id="work-msg"></span>
+      </div>
+
+      <div class="pwdArea" id="pwdArea">
+	<input type="password" class="inputstyle" name="password" id="password" placeholder="密码"/>
+	<span class="msg" id="pwd-msg"></span>
+	<div class="lock_tips" id="caps_lock_tips">
+	  <span class="lock_tips_row"></span>
+	  <span> 大写锁定已打开 </span>
+	</div>
+      </div>
+      
+      <div class="confirmpwdArea" id="confirmpwdArea">
+	<input type="password" class="inputstyle" name="confirm-password" id="confirm-password"  placeholder="确认密码"/>
+	<span class="msg" id="con-pwd-msg"></span>
+	<div class="lock_tips" id="caps_lock_tips">
+	  <span class="lock_tips_row"></span>
+	  <span> 大写锁定已打开 </span>
+	</div>
+      </div>
+
+      <label for="terms-and-conditions" style="font-size:12px;float:left;margin-bottom:5px;">
+	<input type="checkbox" name="terms-and-conditions" id="terms-and-conditions"/>我已阅读并同意相关<a href="#" target="_blank">服务条款和隐私政策</a>
+	<span class="msg" id="terms-msg"></span>
+      </label>
+      
+      <div class="regi-buttons">
+	<button class="btn btn-primary btn-msf-submit" id="btn-msf-submit">立即注册</button>
+      </div>
+
+      <label for="login-href" style="font-size:12px">
+      	<p id="login-href">已经拥有账号，请在此 <a href="/authentication/">登录</a></p>
+      </label>
+
+      <div class="progressinfo">
+	<div class="reginprogress">
+	  <p>Registering ...<span class="loader"></span></p>
+	</div>
+	<div class="regsuccess">
+	  <span class="success"><i class="fa fa-check" aria-hidden="true"></i></span>
+	  <h3>You have successfully signed up</h3>
+	  <p>To complete your registration, just click the activation link in the email that we sent to&nbsp;your email address.<br/><br/> <small>If you can't find the email within a few minutes,<br/>please check your spam folder or <a href="/contact-us/">let us know</a></small></p>
+	  <a href="#" class="btn btn-primary btn-close-progressinfo">Ok</a>
+	</div>
+	<div class="regerror">
+	  <span class="error" id="error-msg">
+	    <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+	  </span>
+	  <p>Sorry, we're experiencing some technical difficulties.<br/>Please try again.</p>
+	  <a href="#" class="btn btn-primary btn-close-error-info">Ok</a>
+	</div>
+       </div>
+    </form>
+  </div>
+</div>
+{% endblock %}

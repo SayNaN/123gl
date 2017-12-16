@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>主页面</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="webGLStyle.css">
+  </head>
+  
+  <body onload="main()" id="main">
+    <canvas id="webgl">
+      Please use the browser supporting "canvas"
+    </canvas>
+    <canvas id="background"></canvas>
+  </body>
+
+  <script src="./lib/webgl-utils.js"></script>
+  <script src="./lib/webgl-debug.js"></script>
+  <script src="./lib/cuon-utils.js"></script>
+  <script src="./lib/cuon-matrix.js"></script>
+  <script src="nextCFD.js"></script>
+  <script src="framebuffer.js"></script>
+  <script src="geometry.js"></script>
+  <script src="mainbuffer.js"></script>
+  <script src="navigatecoor.js"></script>
+  <script src="eventhandler.js"></script>
+  
+</html>

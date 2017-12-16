@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block title %}NextCFD 工程设置{% endblock %}
+{% block additionJS %}
+<link rel="stylesheet" type="text/css" href="css/project.css">
+<script src="js/lib/webgl-utils.js"></script>
+<script src="js/lib/webgl-debug.js"></script>
+<script src="js/lib/cuon-utils.js"></script>
+<script src="js/lib/cuon-matrix.js"></script>
+<script src="js/nextCFD.js"></script>
+<script src="js/framebuffer.js"></script>
+<script src="js/geometry.js"></script>
+<script src="js/mainbuffer.js"></script>
+<script src="js/navigatecoor.js"></script>
+<script src="js/eventhandler.js"></script>
+{% endblock %}
+{% block content %}
+<canvas id="webgl">
+  Please use the browser supporting "canvas"
+</canvas>
+<canvas id="background"></canvas>
+<form class="paramform" id="paramform" autocomplete="off" name="paramform" style="margin:0px">
+  <div id="index-1">
+    <label>边界类型</label>
+    <select id="boundary-type" class="boundary-type">
+      <option value="inlet">入口</option>
+      <option value="outlet">出口</option>
+      <option value="wall">壁面</option>
+    </select>
+  </div>
+  <div class="confirm-buttons">
+    <input type="button" class="btn btn-confirm" id="btn-confirm" value="确定">
+  </div>
+</form>
+{% endblock %}

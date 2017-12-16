@@ -1,0 +1,15 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals
+
+from django.db import models
+from django.contrib.auth.models import User
+
+class User(models.Model):
+    user = models.ForeignKey(User, limit_choices_to={'is_staff': False})
+    stlFile = models.FileField(upload_to = './upload/')
+    
+    def __unicode__(self):
+        return self.username
+
+
+# Create your models here.
